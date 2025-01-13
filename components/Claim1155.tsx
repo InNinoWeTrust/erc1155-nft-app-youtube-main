@@ -13,6 +13,8 @@ export const Claim1155 = () => {
         {
             contract: ERC1155Contract,
             start: 0,
+            count: 0,
+            address: account?.address || "",
         }
     );
 
@@ -21,6 +23,7 @@ export const Claim1155 = () => {
         {
             contract: ERC1155Contract,
             start: 0,
+            count: 0,
             address: account?.address || "",
         }
     );
