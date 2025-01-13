@@ -3,12 +3,13 @@ import styles from "./page.module.css";
 import { chain } from "./chain";
 import { client } from "./client";
 import { Claim1155 } from "../../components/Claim1155";
+import { polygon } from "thirdweb/chains";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <ConnectButton 
-        client={client}
+    <ConnectButton
+  client={client}
         chain={chain}
       />
       <Claim1155 />
